@@ -37,6 +37,8 @@ body {
 
 .wrapper {
   padding: 0 var(--Wrapperspace);
+  max-width: 1115px;
+  margin: auto;
 }
 
 @mixin title {
