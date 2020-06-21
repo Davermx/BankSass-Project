@@ -1,0 +1,20 @@
+.latestarticles {
+    background: var(--Lightgray);
+    &__grid {
+        display: grid;
+        grid-row-gap: 2em;
+    }
+    &-item {
+        border-radius: .5em;
+        overflow: hidden;
+        background: var(--White);
+        &-content {
+            padding: 0 2em;
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+}
